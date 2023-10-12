@@ -1,0 +1,141 @@
+[
+  {
+    "name": "Dashboard",
+    "file": "dashboard",
+    "navigations": true,
+    "live": true,
+    "buttons": [],
+    "icon": "circle-double",
+    "id":1
+  },
+  {
+    "name": "Campaigns",
+    "file": "campaigns",
+    "navigations": false,
+    "live": false,
+    "buttons": [],
+    "icon": "megaphone",
+    "id":2,
+       "subNav": [
+      {
+        "name": "Completed Campaigns",
+        "file": "completed-campaigns",
+        "navigations": false,
+        "live": false,
+        "buttons": []
+      },
+       {
+        "name": "On-going Campaigns",
+        "file": "ongoing-campaigns",
+        "navigations": false,
+        "live": false,
+        "buttons": []
+      },
+        {
+        "name": "Planned Campaigns",
+        "file": "planned-campaigns",
+        "navigations": false,
+        "live": false,
+        "buttons": []
+        }
+    ]
+  },
+  {
+    "name": "Products",
+    "file": "products",
+    "navigations": false,
+    "live": false,
+    "buttons": [],
+    "icon": "cards",
+    "id":3,
+    "subNav": [
+      {
+        "name": "Products Groups",
+        "file": "product-groups",
+        "navigations": false,
+        "live": false,
+        "buttons": []
+      }
+    ]
+  },
+   {
+    "name": "Brand Users",
+    "file": "brand-users",
+    "navigations": false,
+    "live": false,
+    "buttons": ["create-brand-user"],
+    "icon": "people",
+    "materialIcon":true,
+    "id":12
+  },
+  {
+    "name": "Performance Review",
+    "file": "performance-review",
+    "navigations": false,
+    "live": false,
+    "buttons": [],
+    "icon": "glowingstar",
+    "id":4
+  },
+   {
+    "name": "check-email",
+    "file": "check-email",
+    "navigations": false,
+    "live": false,
+    "buttons": [],
+    "icon": "local_atm",
+    "id":5
+  },
+   {
+    "name": "create-business-profile",
+    "file": "create-business-profile",
+    "navigations": false,
+    "live": false,
+    "buttons": [],
+    "id":6
+  },
+     {
+    "name": "verification",
+    "file": "verification",
+    "navigations": false,
+    "live": false,
+    "buttons": [],
+    "id":7
+  },
+  {
+    "name": "Settings",
+    "file": "settings",
+    "navigations": false,
+    "live": false,
+    "buttons": [],
+    "icon": "setting",
+    "id":8
+  },
+  {
+    "name": "Help",
+    "navigations": false,
+    "live": false,
+    "buttons": [],
+    "title": true,
+    "id":9
+  },
+  
+  {
+    "name": "Message",
+    "file": "message",
+    "navigations": false,
+    "live": false,
+    "buttons": [],
+    "icon": "message",
+    "id":10
+  },
+  {
+    "name": "Support",
+    "file": "support",
+    "navigations": false,
+    "live": false,
+    "buttons": [],
+    "icon": "headphone",
+    "id":11
+  }
+]

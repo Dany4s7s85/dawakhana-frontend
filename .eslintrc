@@ -1,0 +1,103 @@
+{
+    "env": {
+      "browser": true,
+      "es2021": true
+    },
+    "extends": [
+      "plugin:react/recommended",
+      "eslint:recommended",
+      "react-app",
+      "airbnb",
+      "prettier",
+      "plugin:import/errors",
+      "plugin:import/warnings"
+    ],
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": true
+      },
+      "ecmaVersion": "latest",
+      "sourceType": "module"
+    },
+    "plugins": [
+      "react",
+      "prettier"
+    ],
+    "rules": {
+      "no-underscore-dangle": "off",
+      "semi": 0,
+      "camelcase": 0,
+      "no-nested-ternary": 0,
+      "no-console": 1,
+      "no-unused-vars": "error",
+      "import/no-cycle": "off",
+      "react-hooks/exhaustive-deps": 0,
+      "react/destructuring-assignment": 0,
+      "react/jsx-props-no-spreading": 0,
+      "react/require-default-props": 0,
+      "react/no-array-index-key": 0,
+      "react/prop-types": 0,
+      "react/react-in-jsx-scope": 0,
+      "jsx-a11y/anchor-is-valid ": 0,
+      "react/no-unstable-nested-components": [
+          "off",
+          { "allowAsProps": true  }
+      ],
+      "react/jsx-filename-extension": [
+        1,
+        {
+          "extensions": [
+            ".jsx"
+          ]
+        }
+      ],
+      "react/state-in-constructor": 0,
+      "import/no-extraneous-dependencies": 0,
+      "import/prefer-default-export": 0,
+      "no-restricted-imports": [
+        "error",
+        {
+          "paths": [
+            {
+              "name": "styled-components",
+              "message": "Please import from styled-components/macro."
+            }
+          ],
+          "patterns": [
+            "!styled-components/macro"
+          ]
+        }
+      ],
+      "prettier/prettier": [
+        "error",
+        {
+          "trailingComma": "all",
+          "tabWidth": 2,
+          "printWidth": 120,
+          "semi": true,
+          "singleQuote": true,
+          "useTabs": false,
+          "quoteProps": "as-needed",
+          "jsxSingleQuote": false,
+          "bracketSpacing": true,
+          "jsxBracketSameLine": true,
+          "bracketSameLine": true,
+          "arrowParens": "avoid",
+          "requirePragma": false,
+          "insertPragma": false,
+          "proseWrap": "preserve",
+          "endOfLine": "auto"
+        }
+      ]
+    },
+    "settings": {
+      "import/resolver": {
+        "node": {
+          "moduleDirectory": [
+            "node_modules",
+            "src/"
+          ]
+        }
+      }
+    }
+  }
